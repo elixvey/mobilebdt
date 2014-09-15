@@ -1,0 +1,2 @@
+titre_app = Mobile
+racine = mobile
