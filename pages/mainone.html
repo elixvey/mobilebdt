@@ -1,0 +1,72 @@
+<!-- P A G E   1 -->
+<div data-role="page" id="pageone" data-theme="d" data-flag-page="page1">
+  <div data-role="header" data-position="fixed">
+    <h1>Banc de touche<br />&nbsp;2014/2015&nbsp;</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div id="contenupageone" data-role="none" align="center">
+    </div>
+    <div data-role="popup" id="popupErreurone" data-transition="flip" style="width: 200px;text-align: center" data-theme="e" data-overlay-theme="a">
+        <p>Un problème est survenu. Veuillez recommencer.<p>
+    </div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h1><a href="http://www.bancdetouche.fr">Bancdetouche.fr</a></h1>
+  </div>
+</div>
+
+<!-- P A G E   2 -->
+<div data-role="page" id="pagetwo" data-theme="d" data-flag-page="page2">
+  <div data-role="header" data-position="fixed">
+    <h1>Banc de touche<br />&nbsp;2014/2015&nbsp;</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+        <p>Identification</p>
+        <form name="identification" id="identification" method="post" data-ajax="false">
+            <div data-role="fieldcontain" class="ui-hide-label">
+                <label for="username">Email:</label> 
+                <input type="text" name="username" id="username" value="" placeholder="Email"/>
+                <br />
+                <label for="password">Pass:</label>
+                <input type="password" name="password" id="password" value="" placeholder="Mot de passe"/>
+                <br />
+                <div style="width: 200px">
+                    <input type="button" data-icon="arrow-r" name="validation" id="validation" value="Valider" />
+                </div>
+            </div>
+        </form>
+        <br />
+        <div data-role="popup" id="popupNoLogon" style="width: 200px;text-align: center" data-theme="e" data-overlay-theme="a">
+            <p>Identification erronée<p>
+        </div>
+        <div data-role="popup" id="popupErreurtwo" data-transition="flip" style="width: 200px;text-align: center" data-theme="e" data-overlay-theme="a">
+            <p>Un problème est survenu. Veuillez recommencer.<p>
+        </div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <h1><a href="#pageone">Sortie</a></h1>
+  </div> 
+</div>
+
+<!-- P A G E   3 -->
+<div data-role="page" id="pagethree" data-theme="d" data-flag-page="page3">
+  <div data-role="header" data-position="fixed">
+    <h1>Banc de touche<br />&nbsp;2014/2015&nbsp;</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div id="contenupagethree" data-role="none" align="center">
+    </div>
+    <div data-role="popup" id="popupErreurthree" data-transition="flip" style="width: 200px;text-align: center" data-theme="e" data-overlay-theme="a">
+        <p>Un probl&egrave;me est survenu. Veuillez recommencer.<p>
+    </div>
+  </div>
+  
+  <div data-role="footer" data-position="fixed">
+    <h1><a href="#pageone" rel="external">Sortie</a></h1>
+  </div>  
+</div>
+<script src="scripts/mainone.js?v1" type="text/javascript"></script>
+  
